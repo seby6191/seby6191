@@ -155,17 +155,7 @@
       font-weight="700"
       font-size="58"
       letter-spacing="7">
-      SEBY
-    </text>
-
-    <text
-      x="2"
-      y="124"
-      fill="#e2e8f0"
-      font-family="monospace"
-      font-size="30"
-      letter-spacing="12">
-      6191
+      SEBY6191
     </text>
 
     <g transform="translate(2 168)">
