@@ -1,0 +1,549 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-label="SEBY6191 futuristic developer profile">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="55%" stop-color="#071126"/>
+      <stop offset="100%" stop-color="#02040a"/>
+    </linearGradient>
+
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee">
+        <animate attributeName="stop-color"
+                 values="#22d3ee;#a78bfa;#22d3ee"
+                 dur="8s"
+                 repeatCount="indefinite"/>
+      </stop>
+
+      <stop offset="50%" stop-color="#ffffff"/>
+
+      <stop offset="100%" stop-color="#a78bfa">
+        <animate attributeName="stop-color"
+                 values="#a78bfa;#22d3ee;#a78bfa"
+                 dur="8s"
+                 repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <radialGradient id="core">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="15%" stop-color="#bff7ff"/>
+      <stop offset="45%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path
+        d="M 34 0 L 0 0 0 34"
+        fill="none"
+        stroke="#67e8f9"
+        stroke-opacity=".06"
+        stroke-width="1"/>
+    </pattern>
+
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="softGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+
+    <clipPath id="screen">
+      <rect x="18" y="18" width="1164" height="384" rx="26"/>
+    </clipPath>
+  </defs>
+
+  <!-- BACKGROUND -->
+
+  <rect
+    x="18"
+    y="18"
+    width="1164"
+    height="384"
+    rx="26"
+    fill="url(#bg)"
+    stroke="#38bdf8"
+    stroke-opacity=".28"/>
+
+  <rect
+    x="18"
+    y="18"
+    width="1164"
+    height="384"
+    rx="26"
+    fill="url(#grid)"/>
+
+  <!-- SCANNING SYSTEM -->
+
+  <g clip-path="url(#screen)">
+
+    <rect
+      x="-260"
+      y="18"
+      width="170"
+      height="384"
+      fill="#22d3ee"
+      opacity=".035"
+      transform="skewX(-18)">
+
+      <animate
+        attributeName="x"
+        values="-260;1450"
+        dur="5.5s"
+        repeatCount="indefinite"/>
+    </rect>
+
+    <line
+      x1="0"
+      y1="92"
+      x2="1200"
+      y2="92"
+      stroke="#22d3ee"
+      stroke-opacity=".22"
+      stroke-dasharray="6 15">
+
+      <animate
+        attributeName="stroke-dashoffset"
+        values="0;-84"
+        dur="2.8s"
+        repeatCount="indefinite"/>
+    </line>
+
+    <line
+      x1="0"
+      y1="328"
+      x2="1200"
+      y2="328"
+      stroke="#a78bfa"
+      stroke-opacity=".16"
+      stroke-dasharray="3 19">
+
+      <animate
+        attributeName="stroke-dashoffset"
+        values="0;88"
+        dur="4s"
+        repeatCount="indefinite"/>
+    </line>
+
+  </g>
+
+  <!-- IDENTITY -->
+
+  <g transform="translate(72 102)">
+
+    <text
+      x="0"
+      y="0"
+      fill="#64748b"
+      font-family="monospace"
+      font-size="14"
+      letter-spacing="4">
+      GITHUB // IDENTITY NODE
+    </text>
+
+    <text
+      x="0"
+      y="72"
+      fill="url(#neon)"
+      filter="url(#glow)"
+      font-family="monospace"
+      font-weight="700"
+      font-size="58"
+      letter-spacing="7">
+      SEBY
+    </text>
+
+    <text
+      x="2"
+      y="124"
+      fill="#e2e8f0"
+      font-family="monospace"
+      font-size="30"
+      letter-spacing="12">
+      6191
+    </text>
+
+    <g transform="translate(2 168)">
+
+      <circle
+        cx="6"
+        cy="-5"
+        r="5"
+        fill="#22d3ee"
+        filter="url(#glow)">
+
+        <animate
+          attributeName="opacity"
+          values=".25;1;.25"
+          dur="1.8s"
+          repeatCount="indefinite"/>
+      </circle>
+
+      <text
+        x="24"
+        y="0"
+        fill="#94a3b8"
+        font-family="monospace"
+        font-size="14"
+        letter-spacing="2">
+        SOFTWARE ENGINEER // ONLINE
+      </text>
+
+    </g>
+
+    <text
+      x="0"
+      y="218"
+      fill="#475569"
+      font-family="monospace"
+      font-size="12"
+      letter-spacing="2">
+      BUILD • DEBUG • UNDERSTAND • EVOLVE
+    </text>
+
+  </g>
+
+  <!-- CENTRAL AI CORE -->
+
+  <g transform="translate(600 210)">
+
+    <circle
+      r="104"
+      fill="none"
+      stroke="#38bdf8"
+      stroke-opacity=".12"/>
+
+    <circle
+      r="86"
+      fill="none"
+      stroke="#22d3ee"
+      stroke-opacity=".48"
+      stroke-width="2"
+      stroke-dasharray="18 10 4 12">
+
+      <animateTransform
+        attributeName="transform"
+        type="rotate"
+        from="0"
+        to="360"
+        dur="12s"
+        repeatCount="indefinite"/>
+    </circle>
+
+    <circle
+      r="70"
+      fill="none"
+      stroke="#a78bfa"
+      stroke-opacity=".38"
+      stroke-width="2"
+      stroke-dasharray="3 9">
+
+      <animateTransform
+        attributeName="transform"
+        type="rotate"
+        from="360"
+        to="0"
+        dur="8s"
+        repeatCount="indefinite"/>
+    </circle>
+
+    <circle
+      r="50"
+      fill="none"
+      stroke="url(#neon)"
+      stroke-width="2.5"
+      stroke-dasharray="78 24">
+
+      <animateTransform
+        attributeName="transform"
+        type="rotate"
+        from="0"
+        to="360"
+        dur="4.8s"
+        repeatCount="indefinite"/>
+    </circle>
+
+    <circle
+      r="40"
+      fill="url(#core)"
+      opacity=".78"
+      filter="url(#softGlow)">
+
+      <animate
+        attributeName="r"
+        values="34;44;34"
+        dur="3s"
+        repeatCount="indefinite"/>
+
+      <animate
+        attributeName="opacity"
+        values=".42;.9;.42"
+        dur="3s"
+        repeatCount="indefinite"/>
+    </circle>
+
+    <circle
+      r="8"
+      fill="#ffffff"
+      filter="url(#glow)"/>
+
+    <!-- ORBITAL PARTICLE 1 -->
+
+    <circle
+      r="4"
+      fill="#22d3ee"
+      filter="url(#glow)">
+
+      <animateMotion
+        path="M -92 0 A 92 92 0 1 1 92 0 A 92 92 0 1 1 -92 0"
+        dur="5s"
+        repeatCount="indefinite"/>
+    </circle>
+
+    <!-- ORBITAL PARTICLE 2 -->
+
+    <circle
+      r="3"
+      fill="#c084fc"
+      filter="url(#glow)">
+
+      <animateMotion
+        path="M 0 -72 A 72 72 0 1 1 0 72 A 72 72 0 1 1 0 -72"
+        dur="3.8s"
+        repeatCount="indefinite"/>
+    </circle>
+
+    <line x1="-130" y1="0" x2="-108" y2="0"
+          stroke="#22d3ee" stroke-opacity=".5"/>
+
+    <line x1="108" y1="0" x2="130" y2="0"
+          stroke="#22d3ee" stroke-opacity=".5"/>
+
+    <line x1="0" y1="-130" x2="0" y2="-108"
+          stroke="#a78bfa" stroke-opacity=".4"/>
+
+    <line x1="0" y1="108" x2="0" y2="130"
+          stroke="#a78bfa" stroke-opacity=".4"/>
+
+    <text
+      x="0"
+      y="5"
+      text-anchor="middle"
+      fill="#020617"
+      font-family="monospace"
+      font-weight="700"
+      font-size="8"
+      letter-spacing="2">
+      CORE
+    </text>
+
+  </g>
+
+  <!-- STACK -->
+
+  <g transform="translate(812 104)">
+
+    <text
+      x="0"
+      y="0"
+      fill="#64748b"
+      font-family="monospace"
+      font-size="14"
+      letter-spacing="4">
+      ACTIVE STACK
+    </text>
+
+    <!-- C# -->
+
+    <g transform="translate(0 42)">
+
+      <text
+        x="0"
+        y="0"
+        fill="#e2e8f0"
+        font-family="monospace"
+        font-size="15">
+        C#
+      </text>
+
+      <rect x="74" y="-10" width="216" height="3"
+            rx="2" fill="#172033"/>
+
+      <rect x="74" y="-10" width="188" height="3"
+            rx="2" fill="#22d3ee">
+
+        <animate
+          attributeName="width"
+          values="22;188;176;188"
+          dur="5s"
+          repeatCount="indefinite"/>
+      </rect>
+
+    </g>
+
+    <!-- .NET -->
+
+    <g transform="translate(0 78)">
+
+      <text
+        x="0"
+        y="0"
+        fill="#e2e8f0"
+        font-family="monospace"
+        font-size="15">
+        .NET
+      </text>
+
+      <rect x="74" y="-10" width="216" height="3"
+            rx="2" fill="#172033"/>
+
+      <rect x="74" y="-10" width="182" height="3"
+            rx="2" fill="#38bdf8">
+
+        <animate
+          attributeName="width"
+          values="40;182;165;182"
+          dur="5.6s"
+          repeatCount="indefinite"/>
+      </rect>
+
+    </g>
+
+    <!-- SQL -->
+
+    <g transform="translate(0 114)">
+
+      <text
+        x="0"
+        y="0"
+        fill="#e2e8f0"
+        font-family="monospace"
+        font-size="15">
+        SQL
+      </text>
+
+      <rect x="74" y="-10" width="216" height="3"
+            rx="2" fill="#172033"/>
+
+      <rect x="74" y="-10" width="176" height="3"
+            rx="2" fill="#818cf8">
+
+        <animate
+          attributeName="width"
+          values="32;176;160;176"
+          dur="6.2s"
+          repeatCount="indefinite"/>
+      </rect>
+
+    </g>
+
+    <!-- REACT -->
+
+    <g transform="translate(0 150)">
+
+      <text
+        x="0"
+        y="0"
+        fill="#e2e8f0"
+        font-family="monospace"
+        font-size="15">
+        REACT
+      </text>
+
+      <rect x="74" y="-10" width="216" height="3"
+            rx="2" fill="#172033"/>
+
+      <rect x="74" y="-10" width="142" height="3"
+            rx="2" fill="#a78bfa">
+
+        <animate
+          attributeName="width"
+          values="18;142;126;142"
+          dur="6.8s"
+          repeatCount="indefinite"/>
+      </rect>
+
+    </g>
+
+    <!-- DIRECTIVE -->
+
+    <g transform="translate(0 198)">
+
+      <text
+        x="0"
+        y="0"
+        fill="#475569"
+        font-family="monospace"
+        font-size="11"
+        letter-spacing="2">
+        DIRECTIVE
+      </text>
+
+      <text
+        x="0"
+        y="24"
+        fill="#cbd5e1"
+        font-family="monospace"
+        font-size="13"
+        letter-spacing="1">
+        UNDERSTAND THE MACHINE.
+      </text>
+
+    </g>
+
+  </g>
+
+  <!-- HUD CORNERS -->
+
+  <path d="M42 66 V42 H66"
+        fill="none"
+        stroke="#22d3ee"
+        stroke-width="2"
+        stroke-opacity=".65"/>
+
+  <path d="M1134 42 H1158 V66"
+        fill="none"
+        stroke="#a78bfa"
+        stroke-width="2"
+        stroke-opacity=".65"/>
+
+  <path d="M42 354 V378 H66"
+        fill="none"
+        stroke="#a78bfa"
+        stroke-width="2"
+        stroke-opacity=".45"/>
+
+  <path d="M1134 378 H1158 V354"
+        fill="none"
+        stroke="#22d3ee"
+        stroke-width="2"
+        stroke-opacity=".45"/>
+
+  <!-- FOOTER SIGNAL -->
+
+  <text
+    x="600"
+    y="382"
+    text-anchor="middle"
+    fill="#334155"
+    font-family="monospace"
+    font-size="10"
+    letter-spacing="5">
+
+    HUMAN // MACHINE // SYSTEMS // CURIOSITY
+
+    <animate
+      attributeName="fill"
+      values="#334155;#64748b;#334155"
+      dur="5s"
+      repeatCount="indefinite"/>
+
+  </text>
+
+</svg>
+
