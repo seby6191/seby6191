@@ -30,13 +30,13 @@ MISSION      : LEARN → BUILD → EVOLVE
 
 <br/><br/>
 
-<img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&hide_border=true&bg_color=000000&title_color=00FF41&text_color=00FF41&icon_color=00FF41" />
+<img src="https://github-readme-stats.vercel.app/api?username=seby6191&show_icons=true&hide_border=true&bg_color=000000&title_color=00FF41&text_color=00FF41&icon_color=00FF41" />
 
 <br/>
 
 ## 🐍 CONTRIBUTION MATRIX
 
-<img src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/github-contribution-grid-snake-dark.svg" alt="Snake animation"/>
+<img src="https://raw.githubusercontent.com/seby6191/seby6191/output/github-contribution-grid-snake-dark.svg" alt="Snake animation"/>
 
 <br/>
 
