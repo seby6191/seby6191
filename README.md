@@ -15,6 +15,6 @@
 <img src="./seby-mission.svg" width="92%" alt="SEBY6191 Engineering Directive"/>
 <br><br>
 
-<img src="./seby-signal.svg" width="88%" alt="SEBY6191 Signal"/>
+<img src="./seby-signal.svg" width="94%" alt="SEBY6191 Signal"/>
 
 </div>
