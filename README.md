@@ -1,7 +1,7 @@
 
 <div align="center">
 
-<img src="./assets/seby-core.svg" width="100%" alt="SEBY6191 Developer Core"/>
+<img src="./seby-core.svg" width="100%" alt="SEBY6191 Developer Core"/>
 
 <br>
 
