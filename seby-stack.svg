@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1100"
+     height="230"
+     viewBox="0 0 1100 230">
+
+  <defs>
+
+    <linearGradient id="bg">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="100%" stop-color="#071426"/>
+    </linearGradient>
+
+    <linearGradient id="energy" x1="0" x2="1">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="50%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+
+    <filter id="glow"
+            x="-100%"
+            y="-100%"
+            width="300%"
+            height="300%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+  </defs>
+
+  <rect x="1"
+        y="1"
+        width="1098"
+        height="228"
+        rx="24"
+        fill="url(#bg)"
+        stroke="#1e293b"/>
+
+  <text x="550"
+        y="38"
+        text-anchor="middle"
+        fill="#64748b"
+        font-family="monospace"
+        font-size="12"
+        letter-spacing="5">
+    SYSTEM DEPTH
+  </text>
+
+  <!-- CONNECTION LINE -->
+
+  <line x1="120"
+        y1="120"
+        x2="980"
+        y2="120"
+        stroke="#1e293b"
+        stroke-width="3"/>
+
+  <!-- NODES -->
+
+  <g font-family="monospace"
+     text-anchor="middle">
+
+    <g transform="translate(120 120)">
+      <circle r="28"
+              fill="#07111f"
+              stroke="#22d3ee"/>
+      <text y="5"
+            fill="#e2e8f0"
+            font-size="12">UI</text>
+    </g>
+
+    <g transform="translate(292 120)">
+      <circle r="28"
+              fill="#07111f"
+              stroke="#38bdf8"/>
+      <text y="5"
+            fill="#e2e8f0"
+            font-size="12">API</text>
+    </g>
+
+    <g transform="translate(464 120)">
+      <circle r="28"
+              fill="#07111f"
+              stroke="#818cf8"/>
+      <text y="5"
+            fill="#e2e8f0"
+            font-size="10">CLR</text>
+    </g>
+
+    <g transform="translate(636 120)">
+      <circle r="28"
+              fill="#07111f"
+              stroke="#a78bfa"/>
+      <text y="5"
+            fill="#e2e8f0"
+            font-size="10">DB</text>
+    </g>
+
+    <g transform="translate(808 120)">
+      <circle r="28"
+              fill="#07111f"
+              stroke="#c084fc"/>
+      <text y="5"
+            fill="#e2e8f0"
+            font-size="10">OS</text>
+    </g>
+
+    <g transform="translate(980 120)">
+      <circle r="28"
+              fill="#07111f"
+              stroke="#f0abfc"/>
+      <text y="5"
+            fill="#e2e8f0"
+            font-size="9">CPU</text>
+    </g>
+
+  </g>
+
+  <!-- ENERGY PARTICLE -->
+
+  <circle r="7"
+          fill="#ffffff"
+          filter="url(#glow)">
+
+    <animateMotion
+      path="M120 120 L980 120"
+      dur="4s"
+      repeatCount="indefinite"/>
+
+  </circle>
+
+  <circle r="18"
+          fill="url(#energy)"
+          opacity=".25"
+          filter="url(#glow)">
+
+    <animateMotion
+      path="M120 120 L980 120"
+      dur="4s"
+      repeatCount="indefinite"/>
+
+  </circle>
+
+  <text x="550"
+        y="190"
+        text-anchor="middle"
+        fill="#475569"
+        font-family="monospace"
+        font-size="11"
+        letter-spacing="3">
+    INTERFACE → API → RUNTIME → DATABASE → OS → MACHINE
+  </text>
+
+</svg>
