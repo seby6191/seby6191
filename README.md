@@ -1,52 +1,64 @@
-````md
-<div align="center">
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=180&color=0:000000,50:001510,100:00ff41&text=SYSTEM%20ONLINE&fontColor=00ff41&fontSize=42&fontAlignY=35&animation=fadeIn&desc=ACCESS%20GRANTED%20%2F%2F%20WELCOME%20TO%20THE%20MATRIX&descAlignY=55&descSize=14"/>
-
-<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=22&duration=1800&pause=500&color=00FF41&center=true&vCenter=true&width=800&lines=%3E+BIOS+CHECK..............OK;%3E+LOADING+.NET+CORE........OK;%3E+CONNECTING+SQL+SERVER....OK;%3E+INITIALIZING+REACT.......OK;%3E+ACCESSING+MAINFRAME......OK;%3E+WELCOME%2C+DEVELOPER." />
-
-</div>
-
-```console
-root@nexus:~$ ./boot.sh
-
-[████████████████████████████████] 100%
-
-SYSTEM       : ONLINE
-IDENTITY     : SOFTWARE ENGINEER
-CORE         : C# / .NET / ASP.NET
-DATABASE     : SQL SERVER
-INTERFACE    : REACT / TYPESCRIPT
-MISSION      : LEARN → BUILD → EVOLVE
-
-> THERE IS NO SPOON.
-````
 
 <div align="center">
 
-### `// TECH MATRIX`
+<img src="./assets/seby-core.svg" width="100%" alt="SEBY6191 Developer Core"/>
 
-<img src="https://skillicons.dev/icons?i=cs,dotnet,js,ts,react,html,css,docker,git,github,linux,vscode,visualstudio&theme=dark" />
+<br>
 
-<br/><br/>
+### `SEBY6191 // SOFTWARE ENGINEERING NODE`
 
-<img src="https://github-readme-stats.vercel.app/api?username=seby6191&show_icons=true&hide_border=true&bg_color=000000&title_color=00FF41&text_color=00FF41&icon_color=00FF41" />
+<br>
 
-<br/>
+<img src="https://skillicons.dev/icons?i=cs,dotnet,js,ts,react,html,css,docker,git,github,linux,vscode,visualstudio&theme=dark"/>
 
-## 🐍 CONTRIBUTION MATRIX
+<br><br>
 
-<img src="https://raw.githubusercontent.com/seby6191/seby6191/output/github-contribution-grid-snake-dark.svg" alt="Snake animation"/>
+`C#` · `.NET` · `ASP.NET Core` · `SQL Server` · `JavaScript` · `TypeScript` · `React`
 
-<br/>
+<br><br>
 
-<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=18&duration=3000&pause=1000&color=00FF41&center=true&width=700&lines=%3E+CODE.+DEBUG.+LEARN.+REPEAT.;%3E+KNOWLEDGE+IS+THE+ULTIMATE+UPGRADE.;%3E+SYSTEM+NEVER+STOPS+EVOLVING..." />
+### `I don't collect frameworks. I build understanding.`
 
-<br/>
+<sub>
+FROM UI → API → RUNTIME → DATABASE → OS → MACHINE
+</sub>
 
-![Profile Views](https://komarev.com/ghpvc/?username=seby6191\&label=SYSTEM%20SCANS\&color=00ff41\&style=for-the-badge)
+<br><br>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&color=0:00ff41,100:000000"/>
+---
+
+<details>
+<summary><b>◈ OPEN DEVELOPMENT CHANNEL</b></summary>
+
+<br>
+
+**Current directive**
+
+Master software engineering from first principles.
+
+**Primary systems**
+
+C# / .NET / ASP.NET Core / SQL Server
+
+**Interface layer**
+
+React / TypeScript
+
+**Expanding into**
+
+Algorithms · System Design · Linux · DevOps · Electronics · AI
+
+**Operating loop**
+
+`LEARN → BUILD → BREAK → DEBUG → UNDERSTAND → REBUILD`
+
+<br>
+
+</details>
+
+<br>
+
+`NODE 6191 // SIGNAL ACTIVE`
 
 </div>
-```
+
