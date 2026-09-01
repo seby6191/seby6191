@@ -3,7 +3,7 @@
 <img src="./seby-core.svg" width="100%" alt="SEBY6191 Core"/>
 
 <br><br>
-
+<h2>Tech</h2>
 <img src="https://skillicons.dev/icons?i=cs,dotnet,js,ts,react,html,css,docker,git,github,linux,vscode,visualstudio&theme=dark"/>
 
 <br><br>
