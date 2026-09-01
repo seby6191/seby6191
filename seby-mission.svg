@@ -1,7 +1,7 @@
-
+```svg
 <svg xmlns="http://www.w3.org/2000/svg"
      width="1100"
-     height="360" 
+     height="360"
      viewBox="0 0 1100 360">
 
   <defs>
@@ -40,7 +40,7 @@
 
   </defs>
 
-
+  <!-- BACKGROUND -->
 
   <rect width="1100"
         height="360"
@@ -63,7 +63,7 @@
 
   </circle>
 
-
+  <!-- OUTER ORBIT -->
 
   <ellipse cx="550"
            cy="178"
@@ -84,7 +84,7 @@
 
   </ellipse>
 
-
+  <!-- INNER ORBIT -->
 
   <ellipse cx="550"
            cy="178"
@@ -105,6 +105,7 @@
 
   </ellipse>
 
+  <!-- CENTRAL CORE -->
 
   <circle cx="550"
           cy="178"
@@ -144,7 +145,7 @@
 
   </circle>
 
-
+  <!-- CENTRAL TITLE -->
 
   <text x="550"
         y="74"
@@ -178,9 +179,9 @@
     TO UNDERSTAND THEM
   </text>
 
+  <!-- TECH NODES -->
 
-
-
+  <!-- C# -->
 
   <g transform="translate(120 177)">
     <circle r="28"
@@ -208,7 +209,7 @@
     </text>
   </g>
 
-
+  <!-- .NET -->
 
   <g transform="translate(280 96)">
     <circle r="24"
@@ -229,7 +230,7 @@
     </text>
   </g>
 
-
+  <!-- ASP.NET -->
 
   <g transform="translate(390 275)">
     <circle r="24"
@@ -250,7 +251,7 @@
     </text>
   </g>
 
-
+  <!-- SQL -->
 
   <g transform="translate(710 272)">
     <circle r="24"
@@ -271,6 +272,7 @@
     </text>
   </g>
 
+  <!-- REACT -->
 
   <g transform="translate(820 96)">
     <circle r="24"
@@ -291,6 +293,7 @@
     </text>
   </g>
 
+  <!-- TYPESCRIPT -->
 
   <g transform="translate(980 177)">
     <circle r="28"
@@ -318,7 +321,7 @@
     </text>
   </g>
 
-
+  <!-- MOVING DATA PARTICLE -->
 
   <circle r="6"
           fill="#ffffff"
@@ -335,7 +338,7 @@
 
   </circle>
 
-
+  <!-- WAVEFORM -->
 
   <path d="M260 325
            L290 325
@@ -370,7 +373,7 @@
 
   </path>
 
-
+  <!-- FOOTER -->
 
   <text x="550"
         y="348"
@@ -383,4 +386,4 @@
   </text>
 
 </svg>
-
+```
